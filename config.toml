@@ -11,7 +11,7 @@ disqusShortname = "brandonsilver" # Enable comments by entering your Disqus shor
 
 [Author] # Used in authorbox
   name = "Brandon Silver"
-  bio = "Brandon is a jack-of-all-trades developer with an interest in AWS-based cloud deployments."
+  bio = "Brandon is a jack-of-all-trades developer with an interest in security and serverless computing."
   avatar = "img/avatar.png"
 
 [Params]
@@ -31,13 +31,14 @@ disqusShortname = "brandonsilver" # Enable comments by entering your Disqus shor
   #mathjax = true # Enable MathJax
   #mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" # Specify MathJax path
   #mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  customCSS = ["css/custom-fonts.css"] # Include custom CSS files
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
+  list = "right"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["recent", "categories", "taglist", "social"]
+  widgets = ["social", "recent", "categories", "taglist"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
@@ -50,7 +51,7 @@ disqusShortname = "brandonsilver" # Enable comments by entering your Disqus shor
   twitter = "alinuxuser"
 #  linkedin = "username"
 #  telegram = "username"
-  github = "username"
+  github = "brandonsilver"
 #  gitlab = "username"
 #  bitbucket = "username"
 #  google_plus = "profileid"
